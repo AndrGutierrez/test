@@ -62,20 +62,5 @@ if __name__ == '__main__':
     for item in data:
         scrape(item)
 
-
-
-# FIXME
-    # area = [210, 50, 800, 700]
-    # page=22
-    # id= get_and_insert(area, page, unorganized=True)
-
-    # area = [150, 40, 800, 650]
-    # page=57
-    # id= get_and_insert(area, page)
-    # show_image(id)
-
-# CAPTURA NO FUNCIONA IGUAL QUE EN LO DEM[AS]
-
-
     show_images()
     # db.connection.table.delete_many({})
